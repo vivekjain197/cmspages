@@ -17,8 +17,8 @@ class UserSeeder extends Seeder
         User::create([
             'fullname' => 'John doe',
             'email' => 'vivekjain197@gmail.com',
-            'mobile' => '1234567890',
-            'password' => '$2y$10$y0KAtXEdcaBRkl0irAlFQ.zxNALA7jLiEZu8vU5SJLl8hftZQbl4q'
+            'password' => '$2y$10$y0KAtXEdcaBRkl0irAlFQ.zxNALA7jLiEZu8vU5SJLl8hftZQbl4q',
+            'reset_password_token'=>''
         ]);
     }
 }

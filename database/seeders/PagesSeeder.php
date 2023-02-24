@@ -16,11 +16,11 @@ class PagesSeeder extends Seeder
     {
         Pages::create(
             [
-            'parent_id' => NULL,
-            'title' => 'Page 1',
-            'slug' => 'page-1',
-            'short_description' => 'This is short descrition 1',
-            'long_description' => 'This is long descrition 1'
+                'parent_id' => NULL,
+                'title' => 'Page 1',
+                'slug' => 'page-1',
+                'short_description' => 'This is short descrition 1',
+                'long_description' => 'This is long descrition 1'
             ],
             [
                 'parent_id' => 1,
